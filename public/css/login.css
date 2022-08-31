@@ -1,0 +1,84 @@
+.login-form {
+    min-height: 50vh;
+    background: rgba(0, 0, 0, 0) url(../images/login/PageBG.jpg) no-repeat scroll center center / cover;
+    padding-top: 5rem;
+}
+
+.login__register {
+    padding: 5rem 0;
+}
+
+.log__btn a {
+    color: brown;
+}
+
+.login__register a {
+    display: block;
+    font-size: 4rem;
+    padding: 0 2rem;
+}
+
+.login-input input {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 4rem;
+    padding-left: 2rem;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+    background: transparent;
+}
+
+.login-input input:focus {
+    outline: none;
+}
+
+.tabs__checkbox {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+}
+
+.login__btn {
+    margin-top: 2rem;
+}
+
+.login__btn a {
+    display: inline-block;
+    height: 5rem;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border: 1px solid #d5d5d5;
+}
+
+.login__btn a:hover {
+    background-color: brown;
+    color: white;
+}
+
+.social__connect h2 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.social__connect ul {
+    padding-left: 0;
+}
+
+.social__connect ul li {
+    width: 3rem;
+}
+
+.social__connect ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: rgb(11, 73, 52);
+}
+
+.social__connect ul li a i {
+    font-size: 2.5rem;
+}
+
+.social__connect ul li:hover i {
+    color: brown;
+}

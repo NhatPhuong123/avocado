@@ -1,0 +1,28 @@
+.header__content {
+    height: 500px;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0) url(../images/Products_List/HeaderBG.jpg) no-repeat scroll center center / cover;
+}
+
+.header__content__inner h1 {
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 5rem;
+}
+
+/* --------------------------CONTENT-------------------- */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-label{
+    font-size: 2rem;
+}

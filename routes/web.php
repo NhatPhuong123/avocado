@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/product-detail/{productId}', [HomeController::class, 'productDetail'])->name('product.detail');
+
+Route::get('/category/{id}', [HomeController::class, 'categoryDetail'])->name('category.detail');
+Route::get('/product-search', [HomeController::class, 'productSearch'])->name('product.search');
+
+

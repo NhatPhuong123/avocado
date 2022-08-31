@@ -1,0 +1,76 @@
+.header__content {
+    height: 500px;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0) url(../images/Products_List/HeaderBG.jpg) no-repeat scroll center center / cover;
+}
+
+.header__content__inner h1 {
+    font-size: 4rem;
+    font-weight: 450;
+    line-height: 5rem;
+}
+
+/* --------------------CART---------------- */
+.cart{
+    padding-top: 10rem;
+}
+td{
+    padding: 2rem 0 !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+th{
+    font-size: 1.5rem;
+    padding: 2rem 0 !important;
+}
+tbody th{
+    width: 15rem;
+}
+.quantity{
+    width: 7rem;
+}
+.cart-total{
+    padding: 5rem 0;
+}
+.cart-total .btn{
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.checkout-btn{
+    margin-top: 1rem;
+}
+.checkout-btn:hover{
+    background: white;
+    color: black;
+}
+.coupon h3{
+    padding: 5rem 0 2rem 0;
+}
+.coupon p{
+    margin-bottom: 2rem;
+}
+
+.coupon-code {
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    height: 4rem;
+    overflow: hidden;
+}
+.coupon-code {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.coupon-code:focus {
+    outline: none;
+}
+.coupon-btn{
+    padding: 1rem 2rem !important;
+    max-height: 40px;
+    margin-top: -7px;
+}
+.coupon-btn:hover{
+    background: white;
+    color: black;
+}
